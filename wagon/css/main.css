@@ -105,7 +105,9 @@
 .about-text {
   position: relative;
 }
-
+.about {
+  background-color: #ebe5dc;
+}
 .about-text:after {
   position: absolute;
   content: "";
@@ -143,13 +145,19 @@
 
 .cardd {
   border-bottom-right-radius: 50px !important;
-  background-color: #fff5f2;
+  background-color: #e3d5d1;
   cursor: pointer;
+  box-shadow: 0 4px 8px rgba(66, 41, 41, 0.2);
+transition: 0.3s;
 }
+
+
 
 .card {
   position: relative;
   overflow: hidden;
+  box-shadow: 0 4px 8px rgba(66, 41, 41, 0.2);
+  transition: 0.3s;
 }
 
 .layer {
